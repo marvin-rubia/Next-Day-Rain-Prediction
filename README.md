@@ -7,7 +7,7 @@ The original source is the [Australian Government's Bureau of Meteorology](http:
 ## Conclusion
 ![image](https://github.com/marvin-rubia/Next-Day-Rain-Prediction/assets/140475770/f2abf2b6-5df7-43f4-bcfe-323cd7ec6a9b)
 
-Out of the five models analyzed for Sydney’s historical weather data from 2008 to 2017, our best model for predicting next-day rain is __Logistic Regression__ (C=10, solver=‘liblinear’, the rest of the parameters are default). Its weighted f1-score is 0.83. __Decision Tree__ (max_depth=4, the rest of the parameters are default) performed the weakest prediction with a score of 0.77.
+Out of the five models analyzed for Sydney’s historical weather data from 2008 to 2017, our best model for predicting next-day rain is __Logistic Regression__ (C=0.1, solver=‘liblinear’, the rest of the parameters are default). Its weighted f1-score is 0.83. __Decision Tree__ (max_depth=4, the rest of the parameters are default) performed the weakest prediction with a score of 0.77.
 
 ## I wrote a blog about this
 I wrote an educational blog that guides a reader from source data to the conclusion here: [Will it Rain Tomorrow? Prediction using 5 Machine Learning Algorithms](https://marvinrubia.medium.com/will-it-rain-tomorrow-prediction-using-5-machine-learning-algorithms-4eb069952ce5). It has additional comments about my thinking process that are not found in my Jupyter Notebook.
