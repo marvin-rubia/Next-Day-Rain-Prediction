@@ -13,5 +13,5 @@ Out of the five models developed for Sydney's historical weather data from 2008 
 
 Weather forecasts are accompanied by probability and our logistic regression model can readily give the probability of rain tomorrow using the `.predict_proba()` method from Sci-kit Learn. 
 
-## I wrote a blog about this
-I wrote an educational blog that guides a reader from source data to the conclusion here: [Will it Rain Tomorrow? Prediction using 5 Machine Learning Algorithms](https://marvinrubia.medium.com/will-it-rain-tomorrow-prediction-using-5-machine-learning-algorithms-4eb069952ce5). It has additional comments about my thinking process that are not found in my Jupyter Notebook.
+## How to see my work?
+Check the uploaded [Notebook](https://github.com/marvin-rubia/Next-Day-Rain-Prediction/blob/main/Next_Day_Rain_Prediction.ipynb) in this repository. 
